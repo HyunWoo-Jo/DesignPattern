@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ConcreteDecorator : MonoBehaviour, ComponentD {
+public class ConcreteDecorator : MonoBehaviour{
     private int addedState;
 
     public void Operation() {
